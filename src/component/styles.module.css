@@ -1,0 +1,152 @@
+.form {
+  text-align: center;
+  height: 97vh;
+  line-height: 2rem;
+  border: 1.5px solid rgb(115, 231, 69);
+  border-radius: 5px;
+  background-image: url(../img/Student-Management-System.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* .h1 {
+  text-align: center;
+  font-size: 24px;
+} */
+
+.inpt {
+  /* margin: 180px 10px 10px 10px; */
+  margin-bottom: 10px;
+  width: 30%;
+  padding: 12px 20px;
+  height: 50px;
+  line-height: 2rem;
+  border: 1.5px solid rgb(115, 231, 69);
+  border-radius: 4px;
+}
+
+.inpt2 {
+  margin: 10px 10px 10px 10px;
+  width: 45%;
+  padding: 12px 20px;
+  height: 50px;
+  line-height: 2rem;
+  border: 1.5px solid rgb(115, 231, 69);
+  border-radius: 4px;
+}
+
+.inpt:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+.inpt2:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.btn2 {
+  background-color: rgb(132, 147, 190);
+  color: #fff;
+  font: 18px;
+  border-radius: 3px;
+  border: 0.5px solid rgb(14, 54, 163);
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 12%;
+  line-height: 22px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  border-top: 10rem;
+  margin-bottom: 1rem;
+  margin-left: 3px;
+}
+
+.btn2:active,
+.btn2:focus,
+.btn2:target {
+  background-color: darkblue;
+}
+
+.btn2:hover {
+  background-color: rgb(11, 49, 155);
+}
+
+.out {
+  text-align: start;
+  font-size: 20px;
+  margin-top: 1rem;
+  line-height: 1px;
+  margin-left: 190px;
+  margin-bottom: 2rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+  text-align: start;
+  font-size: 20px;
+  margin-top: 2rem;
+  line-height: 20px;
+  margin-left: 190px;
+  margin-bottom: 3rem;
+  color: #000;
+  cursor: pointer;
+}
+.check {
+  width: 12px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.Card {
+  margin: 1em;
+  padding: 0;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  background-color: #ddaa77;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px orangered;
+}
+.Card:hover {
+  transform: scale(1.05);
+}
+.nav {
+  margin-bottom: 20px;
+  /* background-color: forestgreen; */
+}
+.nav ul {
+  list-style-type: none;
+  height: 55px;
+  /* background-color: forestgreen; */
+}
+
+.nav li {
+  display: inline;
+  /* background-color: forestgreen; */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: auto;
+}
+.Label {
+  color: green;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+}
